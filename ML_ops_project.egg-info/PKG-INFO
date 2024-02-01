@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: ML-ops-project
+Version: 0.0.1
+Author: Karan Mehta
+Author-email: kmehta883@gmail.com
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: scikit-learn
+Requires-Dist: setuptools
+Requires-Dist: catboost
+Requires-Dist: xgboost
+Requires-Dist: matplotlib
+Requires-Dist: Flask
+Requires-Dist: dill
+Requires-Dist: seaborn

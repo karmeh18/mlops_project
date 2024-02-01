@@ -1,0 +1,8 @@
+[ 2024-01-31 22:50:12,555 ] _internal.py 96 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.200:5000
+[ 2024-01-31 22:50:12,556 ] _internal.py 96 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[ 2024-01-31 22:50:12,561 ] _internal.py 96 werkzeug - INFO -  * Restarting with stat
+[ 2024-01-31 22:50:40,820 ] _internal.py 96 werkzeug - INFO -  * Restarting with stat
+[ 2024-01-31 22:50:44,805 ] _internal.py 96 werkzeug - INFO -  * Restarting with stat

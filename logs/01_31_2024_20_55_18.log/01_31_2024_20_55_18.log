@@ -1,0 +1,13 @@
+[ 2024-01-31 20:55:19,874 ] data_ingestion.py 24 root - INFO - Entered in Data Ingestion to Import the file
+[ 2024-01-31 20:55:19,874 ] data_ingestion.py 27 root - INFO - Data has been loaded and read as DataFrame
+[ 2024-01-31 20:55:19,874 ] data_ingestion.py 29 root - INFO - Training Data Directory has been created and an csv file has been exported
+[ 2024-01-31 20:55:19,890 ] data_ingestion.py 33 root - INFO - Train-Test split has been initiated
+[ 2024-01-31 20:55:19,890 ] data_ingestion.py 36 root - INFO - Splitting has been done and now training data will be exported to the path 'artifacts\train.csv'
+[ 2024-01-31 20:55:19,890 ] data_ingestion.py 39 root - INFO - Splitting has been done and now testing data will be exported to the path 'artifacts\test.csv'
+[ 2024-01-31 20:55:19,890 ] data_ingestion.py 42 root - INFO - Data Ingestion has been Completed
+[ 2024-01-31 20:55:19,905 ] data_transformation.py 67 root - INFO - Training Data and Test Data has been 
+[ 2024-01-31 20:55:19,905 ] data_transformation.py 68 root - INFO - Obtaining Preprocessor Object
+[ 2024-01-31 20:55:19,905 ] data_transformation.py 77 root - INFO - Applying Preprocessing object on training and test data
+[ 2024-01-31 20:55:19,905 ] data_transformation.py 49 root - INFO - Pipeline has been initiated for Categorical Columns'['gender', 'race_ethnicity', 'parental_level_of_education', 'lunch', 'test_preparation_course']'
+[ 2024-01-31 20:55:19,905 ] data_transformation.py 50 root - INFO - Pipeline has been initiated for Numerical Columns'['writing_score', 'reading_score']'
+[ 2024-01-31 20:55:19,905 ] data_transformation.py 52 root - INFO - Column Transformer has been initiated for both Numerical and Categorical Columns

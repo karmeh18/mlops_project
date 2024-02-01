@@ -1,0 +1,5 @@
+[ 2024-01-31 22:58:46,352 ] _internal.py 96 werkzeug - WARNING -  * Debugger is active!
+[ 2024-01-31 22:58:46,352 ] _internal.py 96 werkzeug - INFO -  * Debugger PIN: 104-884-028
+[ 2024-01-31 22:59:03,465 ] predict_pipeline.py 13 root - INFO - Model and Preprocessor object has been loaded
+[ 2024-01-31 22:59:03,650 ] _internal.py 96 werkzeug - INFO - 127.0.0.1 - - [31/Jan/2024 22:59:03] "POST /predictdata HTTP/1.1" 200 -
+[ 2024-01-31 22:59:15,867 ] _internal.py 96 werkzeug - INFO -  * Detected change in 'D:\\ml_project\\app.py', reloading

@@ -1,0 +1,19 @@
+[ 2024-01-31 22:08:10,503 ] data_ingestion.py 25 root - INFO - Entered in Data Ingestion to Import the file
+[ 2024-01-31 22:08:10,503 ] data_ingestion.py 28 root - INFO - Data has been loaded and read as DataFrame
+[ 2024-01-31 22:08:10,503 ] data_ingestion.py 30 root - INFO - Training Data Directory has been created and an csv file has been exported
+[ 2024-01-31 22:08:10,519 ] data_ingestion.py 34 root - INFO - Train-Test split has been initiated
+[ 2024-01-31 22:08:10,519 ] data_ingestion.py 37 root - INFO - Splitting has been done and now training data will be exported to the path 'artifacts\train.csv'
+[ 2024-01-31 22:08:10,519 ] data_ingestion.py 40 root - INFO - Splitting has been done and now testing data will be exported to the path 'artifacts\test.csv'
+[ 2024-01-31 22:08:10,519 ] data_ingestion.py 43 root - INFO - Data Ingestion has been Completed
+[ 2024-01-31 22:08:10,536 ] data_transformation.py 67 root - INFO - Training Data and Test Data has been 
+[ 2024-01-31 22:08:10,536 ] data_transformation.py 68 root - INFO - Obtaining Preprocessor Object
+[ 2024-01-31 22:08:10,536 ] data_transformation.py 77 root - INFO - Applying Preprocessing object on training and test data
+[ 2024-01-31 22:08:10,536 ] data_transformation.py 49 root - INFO - Pipeline has been initiated for Categorical Columns ['gender', 'race/ethnicity', 'parental level of education', 'lunch', 'test preparation course']
+[ 2024-01-31 22:08:10,536 ] data_transformation.py 50 root - INFO - Pipeline has been initiated for Numerical Columns ['writing score', 'reading score']
+[ 2024-01-31 22:08:10,536 ] data_transformation.py 52 root - INFO - Column Transformer has been initiated for both Numerical and Categorical Columns
+[ 2024-01-31 22:08:10,569 ] data_transformation.py 82 root - INFO - Applied Preprocessor object to training and test Data
+[ 2024-01-31 22:08:10,569 ] data_transformation.py 83 root - INFO - Combining Preprocessed Input datapoints from training and test data with target feature of training and test data
+[ 2024-01-31 22:08:10,569 ] data_transformation.py 88 root - INFO - Preprocessed and Concatenation has been done
+[ 2024-01-31 22:08:10,569 ] model_trainer.py 25 root - INFO - Splitting Data into train and test data
+[ 2024-01-31 22:08:14,520 ] model_trainer.py 42 root - INFO - Model Training has beend done and now selecting the best model
+[ 2024-01-31 22:08:14,520 ] model_trainer.py 51 root - INFO - Best model has been found and the model is GradientBoostRegressor

@@ -1,0 +1,7 @@
+[ 2024-01-31 14:28:25,389 ] 22 root - INFO - Entered in Data Ingestion to Import the file
+[ 2024-01-31 14:28:25,389 ] 25 root - INFO - Data has been loaded and read as DataFrame
+[ 2024-01-31 14:28:25,389 ] 27 root - INFO - Training Data Directory has been created and an csv file has been exported
+[ 2024-01-31 14:28:25,404 ] 31 root - INFO - Train-Test split has been initiated
+[ 2024-01-31 14:28:25,404 ] 34 root - INFO - Splitting has been done and now training data will be exported to the path artifacts\train.csv
+[ 2024-01-31 14:28:25,404 ] 37 root - INFO - Splitting has been done and now testing data will be exported to the path artifacts\test.csv
+[ 2024-01-31 14:28:25,420 ] 40 root - INFO - Data Ingestion has been Completed
